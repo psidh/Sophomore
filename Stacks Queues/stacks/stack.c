@@ -13,7 +13,7 @@ void push(int value) {
         printf("Stack is full\n");
         return;
     }
-    stack[++top] = value;
+    stack[top++] = value;
     printf("Pushed %d onto the stack\n", value);
 }
 
